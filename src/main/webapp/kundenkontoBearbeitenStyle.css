@@ -1,0 +1,76 @@
+/* -- @author Thomas Mook -- */
+@charset "UTF-8";
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	background: url(bilder/regBild.jpg) no-repeat center center fixed;
+	background-position: center; 
+	background-size: cover;
+	font-family: sans-serif;
+}
+.titel {
+	width: 600px;
+	background-color: rgb(0,0,0,0.6);
+	margin:50px auto auto auto;
+	color: #FFFFFF;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px;
+}
+.bearbeitung {
+	overflow: auto;
+	color: white;
+	border-radius: 0px 0px 15px 15px;
+	width: 600px;
+	height: auto;
+	background-color: rgb(0,0,0,0.5);
+	margin: auto;
+}
+.bearbeitung th {
+	text-align:left;
+}
+.bearbeitung td, th {
+	height:50px;
+	frame:below;
+	width:200px;
+	top:20px;
+}
+.button {
+	position: relative;
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	curser: pointer;
+	width:230px;
+}
+.eingabe {
+	position: relative;
+	line-height: 40px;
+	padding: 0 22;
+	font-size: 16px;
+	border: 2px solid #0174DF;
+	border-radius: 24px;
+	background: none;
+	color: white;
+	text-align:center;	
+}
+.bearbeitung  input[type = "text"]:focus, input[type = "password"]:focus {
+	border-color: #2ecc71;
+}
+.bearbeitung button[type = "submit"]:hover {
+	background: #2ecc71;
+}
+.bearbeitung a {
+	text-decoration:none;
+}

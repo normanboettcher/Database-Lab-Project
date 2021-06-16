@@ -1,0 +1,57 @@
+/* -- @author Thomas Mook -- */
+@charset "UTF-8";
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	background-color: black;
+	background-position: center; 
+	background-size: cover;
+	font-family: sans-serif;
+	color: white;
+}
+h1 {
+	text-align: center;
+}
+.rechnungen {
+	font-size:11px;
+}
+.rechnungen table {
+	border-collapse: collpase;
+ 	border-spacing: 0;
+ 	border-width: thin 0 0 thin;
+	margin: 0 0 1em;
+	table-layout: auto;
+	max-width: 100%;	
+}
+.rechnungen th, td {
+	height:50px;
+	border: 1px solid white;
+	width:180px;
+	text-align: center;
+}
+.button {
+	position: relative;
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid white;
+	padding: 10px 30px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	curser: pointer;
+}
+.rechnungen button[type = "submit"]:hover {
+	background:white;
+	color: black;
+}
+.rechnungen a {
+	color:white;
+	text-decoration:none;
+}

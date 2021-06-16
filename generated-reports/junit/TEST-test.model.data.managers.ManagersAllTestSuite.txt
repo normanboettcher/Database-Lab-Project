@@ -1,0 +1,8 @@
+Testsuite: test.model.data.managers.ManagersAllTestSuite
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0,187 sec
+
+------------- Standard Output ---------------
+2020-07-06
+06.07.2020
+2020-07-01
+------------- ---------------- ---------------

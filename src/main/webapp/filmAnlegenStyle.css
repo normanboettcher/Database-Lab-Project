@@ -1,0 +1,134 @@
+/* -- @author Thomas Mook -- */
+@charset "UTF-8";
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	background: url(bilder/regBild.jpg) no-repeat center center fixed;
+	background-position: center; 
+	background-size: cover;
+	font-family: sans-serif;
+}
+.titel {
+	width: 800px;
+	background-color: rgb(0,0,0,0.6);
+	margin:50px auto auto auto;
+	color: #FFFFFF;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px;
+}
+.filmAnlage {
+	overflow: auto;
+	color: white;
+	border-radius: 0px 0px 15px 15px;
+	width: 800px;
+	height: auto;
+	background-color: rgb(0,0,0,0.5);
+	margin: auto;
+}
+.filmAnlage h2, h4 {
+	margin-top: 20px;
+	text-align: center;
+}
+.filmAnlage td {
+	height:50px;
+}
+
+.beschriftung {
+	position: relative;
+	margin-left: 40px;
+	width: 125px;
+	color:white;
+	fontsize: 18px;
+	font-weight: 700;
+}
+.genre {
+	position: relative;
+	line-height: 40px;
+	padding: 0 22;
+	font-size: 16px;
+	border: 2px solid #0174DF;
+	border-radius: 24px;
+	background: none;
+	color: white;
+	text-align:center;
+	width:175px;
+	height:40px;
+}
+.filmtitel {
+	position: relative;
+	line-height: 40px;
+	padding: 0 22;
+	font-size: 16px;
+	border: 2px solid #0174DF;
+	border-radius: 24px;
+	background: none;
+	color: white;
+	text-align:center;	
+}
+.beschreibung {
+	position: relative;
+	line-height: 40px;
+	padding: 0 22;
+	font-size: 16px;
+	border: 2px solid #0174DF;
+	border-radius: 24px;
+	background: none;
+	color: white;
+	text-align:center;	
+}
+.eingabe {
+	position: relative;
+	line-height: 40px;
+	padding: 0 22;
+	font-size: 16px;
+	border: 2px solid #0174DF;
+	border-radius: 24px;
+	background: none;
+	color: white;
+	text-align:center;
+}
+.alters {
+	position: relative;
+	line-height: 40px;
+	padding: 0 22;
+	font-size: 16px;
+	border: 2px solid #0174DF;
+	border-radius: 24px;
+	background: none;
+	color: white;
+	text-align:center;
+	width:170px;
+	height:43px;
+}
+.button {
+	position: relative;
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #0174DF;
+	padding: 10px 30px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	curser: pointer;
+}
+.filmAnlage button[type = "submit"]:hover {
+	background:#0174DF;
+}
+.filmAnlage a {
+	color:white;
+	text-decoration:none;
+}
+.filmAnlage input[type = "text"]:focus, input[type = "number"]:focus {
+	border-color: #2ecc71;
+}
+.genre:focus, .beschreibung:focus, .alters:focus {
+	border-color: #2ecc71;
+}	

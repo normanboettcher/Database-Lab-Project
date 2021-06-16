@@ -1,0 +1,11 @@
+Testsuite: test.model.data.film.FilmAllTestSuite
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0,218 sec
+
+------------- Standard Output ---------------
+====================Veroeffentlicht===================
+1
+1
+2000
+==============Filmbeschreibung===============
+Eine Beschreibung des Films
+------------- ---------------- ---------------

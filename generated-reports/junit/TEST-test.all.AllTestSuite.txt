@@ -1,0 +1,25 @@
+Testsuite: test.all.AllTestSuite
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0,358 sec
+
+------------- Standard Output ---------------
+====================Veroeffentlicht===================
+1
+1
+2000
+==============Filmbeschreibung===============
+Eine Beschreibung des Films
+Geburtsdatum des Admins
+-----------------------------------
+Geburtsdatum: 4.5.1920
+Test von getGeburtsdatum Ende 
+
+Adresse des Admins
+--------------------------------
+Strassengraben 1a
+12345 Dorf
+Geburtstag des Kunden: 6.1.1900
+------------------------------
+Adresse des Kunden
+Am Scheunentor 27
+11111 Dorfküche
+------------- ---------------- ---------------

@@ -1,0 +1,60 @@
+/* -- @author Thomas Mook -- */
+@charset "UTF-8";
+.navbar {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: transparent;
+	width: 100%;
+	height: 70px;
+	z-index: 1px;
+}
+.nav {
+	display: flex;
+	justify-content: right;
+	list-style:none;
+	margin-right: 5%;
+}
+.logo {
+	flex: 1 1 auto;
+	margin-left: 10%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 35px;
+	color: white;
+	text-decoration:none;
+}
+.men {
+	margin: 15px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.men:hover {
+	color:#0174DF;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   heigth: 60px;
+   background-color: black;
+   text-align: center;
+   margin: 15px;
+	text-decoration:none;
+	color: grey;
+    text-align: center;
+    font-size:8px;
+}
+.footerIn {
+	margin: 15px;
+	text-decoration:none;
+	color: grey;
+    text-align: center;
+    font-size:10px;
+}

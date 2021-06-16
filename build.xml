@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name = "Videothek" default = "run" basedir = ".">
+<!-- Mit dem Release werden alle targets ausgeführt -->
+	<target name = "run" depends = "compile, executeTests, documentation"></target>
+	
+	<!-- Setze alle Ordner, die erstelt werden -->
+	<property name = "source.dir" value = "src"></property>
+	<property name = "build.dir" value = "bin"></property>
+	<property name = "reports.dir" value = "generated-reports"></property>
+	<property name = "doc.dir" value = "doc"></property>
+	<property name = "lib.dir" value = "lib"></property>
+	
+	<target name = "createDirectories" depends = "clean">
+	<!--  
+		<echo message = "creating testsource directory"></echo>
+		<mkdir dir = "${testsource.dir}"></mkdir>
+	-->
+		
+		<echo message = "creating build directory"></echo>
+		<mkdir dir = "${build.dir}"></mkdir>
+		
+		<echo message = "creating report directory"></echo>
+		<mkdir dir = "${reports.dir}"></mkdir>
+		
+		<echo message = "creating documentation directory"></echo>
+		<mkdir dir = "${doc.dir}"></mkdir>
+
+		<echo message = "creating lib directory"></echo>
+		<mkdir dir = "${lib.dir}"></mkdir>
+	</target>
+	
+	<!--Classpath setzen  -->
+	<path id = "project.classpath">
+		<fileset dir = "${lib.dir}" includes = "**/*.jar"></fileset>
+	</path>
+	
+	
+	<!-- Target zum loeschen der Ordner -->
+	<target name = "clean">
+	
+		<echo message = "deleting generated reports"></echo>
+		<delete dir = "${reports.dir}"></delete>
+		
+		<echo message = "deleting build directory"></echo>
+		<delete dir = "${build.dir}"></delete>
+		
+		<echo message = "deleting documentation directory"></echo>
+		<delete dir = "${doc.dir}"></delete>
+	</target>
+	
+	<!-- Kompilieren des Quellcodes und der Tests -->
+	<target name = "compile" depends = "createDirectories">
+		<echo message = "compile all sources"></echo>
+		<antcall target = "-compileSrc"></antcall>
+		
+		<available file = "${source.dir}" type = "dir" property = "source.dir.present"></available>
+		<antcall target = "-compileTest"></antcall>
+	</target>
+	
+	<!-- Kompiliere Quellcode -->
+	<target name = "-compileSrc">
+		<echo message = "Kompiliere den Quellcode in den Ordner: ${source.dir}"></echo>
+		<javac srcdir = "${source.dir}" destdir = "${build.dir}">
+			<classpath>
+				<path refid = "project.classpath"></path>
+			</classpath>
+		</javac>
+	</target>
+	
+	<!-- Kompiliere die Tests -->
+	<target name = "-compileTest" if = "source.dir.present">
+		<echo message = "Kompiliere die Testdateien in den Ordner: ${source.dir}"></echo>
+		<javac srcdir = "${source.dir}" destdir = "${build.dir}">
+			<classpath>
+				<path refid = "project.classpath"></path>
+			</classpath>
+		</javac>
+	</target>
+	
+	<!-- Erstellen der JavaDoc -->
+	<target name = "documentation" depends = "compile, executeTests">
+		<echo message = "creating documentation for sourcefiles"></echo>
+			<javadoc sourcepath = "${source.dir}" destdir = "${doc.dir}/src">
+				<fileset dir = "${source.dir}"></fileset>
+				<classpath>
+					<path refid = "project.classpath"></path>
+				</classpath>
+			</javadoc>
+	</target>
+	<!-- Ausführen der Tests -->
+	<target name = "executeTests" depends = "compile" if = "source.dir.present">
+		<echo message = "Erstelle junit reports"></echo>
+		<delete dir = "${reports.dir}/junit"></delete>
+		<mkdir dir = "${reports.dir}/junit"></mkdir>
+		<junit printsummary = "on" fork = "true" haltonfailure = "false" failureproperty = "tests.failed"
+			filtertrace = "yes" showoutput = "true">
+			<classpath>
+				<pathelement location = "${build.dir}"></pathelement>
+				<path refid = "project.classpath"></path>
+			</classpath>
+			
+			<formatter type = "brief" usefile = "true"></formatter>
+			<formatter type = "xml" usefile = "true"></formatter>
+			
+			<batchtest todir = "${reports.dir}/junit">
+				<fileset dir = "${source.dir}">
+					<include name = "**/*Suite.java"></include>
+				</fileset>
+			</batchtest>
+		</junit>
+		
+		<junitreport todir = "${reports.dir}/junit">
+			<fileset dir = "${reports.dir}/junit">
+				<include name = "TEST-*.xml"></include>
+			</fileset>
+			<report format = "frames" todir = "${reports.dir}/junit"></report>
+		</junitreport>
+	</target>
+</project>

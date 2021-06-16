@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <package id="1" language="java" name="model.data.bestellungen" project="Streaming" 
+    file="/Streaming/src/model/data/bestellungen" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="549" width="640" x="-209" y="53"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="2" language="java" name="model.data.bestellungen.Rechnung" project="Streaming" 
+    file="/Streaming/src/model/data/bestellungen/Rechnung.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-78" y="346"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="model.data.bestellungen.Warenkorb" project="Streaming" 
+    file="/Streaming/src/model/data/bestellungen/Warenkorb.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="174" y="219"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="4" language="java" name="model.data.filme" project="Streaming" file="/Streaming/src/model/data/filme" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="719" width="636" x="488" y="63"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="5" language="java" name="model.data.filme.Produzent" project="Streaming" 
+    file="/Streaming/src/model/data/filme/Produzent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="924" y="653"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="model.data.filme.Film" project="Streaming" 
+    file="/Streaming/src/model/data/filme/Film.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="627" y="415"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="7" language="java" name="model.data.general" project="Streaming" file="/Streaming/src/model/data/general" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="591" width="511" x="-387" y="614"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="8" language="java" name="model.data.general.Adresse" project="Streaming" 
+    file="/Streaming/src/model/data/general/Adresse.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-19" y="1072"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="model.data.general.AbstractClassPerson" project="Streaming" 
+    file="/Streaming/src/model/data/general/AbstractClassPerson.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-234" y="788"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="10" language="java" name="model.data.users" project="Streaming" file="/Streaming/src/model/data/users" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="724" width="823" x="-1255" y="9"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="11" language="java" name="model.data.users.Kunde" project="Streaming" 
+    file="/Streaming/src/model/data/users/Kunde.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-665" y="227"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="model.data.users.AbstractClassUser" project="Streaming" 
+    file="/Streaming/src/model/data/users/AbstractClassUser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-762" y="556"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="model.data.users.Administrator" project="Streaming" 
+    file="/Streaming/src/model/data/users/Administrator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-1074" y="242"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="14" language="java" name="model.data.zahlmethoden" project="Streaming" 
+    file="/Streaming/src/model/data/zahlmethoden" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="469" width="745" x="-1164" y="762"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="15" language="java" name="model.data.zahlmethoden.PayPal" project="Streaming" 
+    file="/Streaming/src/model/data/zahlmethoden/PayPal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-1048" y="1138"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="model.data.zahlmethoden.Kreditkarte" project="Streaming" 
+    file="/Streaming/src/model/data/zahlmethoden/Kreditkarte.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-864" y="1140"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="model.data.zahlmethoden.Klarna" project="Streaming" 
+    file="/Streaming/src/model/data/zahlmethoden/Klarna.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-681" y="1138"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="model.data.zahlmethoden.AbstractClassZahlmethode" project="Streaming" 
+    file="/Streaming/src/model/data/zahlmethoden/AbstractClassZahlmethode.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-905" y="972"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="19" language="java" name="model.database" project="Streaming" file="/Streaming/src/model/database" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="366" width="246" x="290" y="843"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="20" language="java" name="model.database.DatabaseConnection" project="Streaming" 
+    file="/Streaming/src/model/database/DatabaseConnection.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="391" y="1049"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="21" language="java" name="model.database.transfer" project="Streaming" 
+    file="/Streaming/src/model/database/transfer" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="423" width="703" x="582" y="815"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="22" language="java" name="model.database.transfer.SpeicherInDatenbank" project="Streaming" 
+    file="/Streaming/src/model/database/transfer/SpeicherInDatenbank.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="749" y="999"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="model.database.transfer.HoleObjektAusDatenbank" project="Streaming" 
+    file="/Streaming/src/model/database/transfer/HoleObjektAusDatenbank.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1099" y="1002"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="24" language="java" name="model.web.servlets.bestellung" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/bestellung" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="546" width="783" x="-292" y="1267"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="25" language="java" name="model.web.servlets.bestellung.BestellenServlet" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/bestellung/BestellenServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-122" y="1404"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="model.web.servlets.bestellung.RechnungHerunterladen" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/bestellung/RechnungHerunterladen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-131" y="1552"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="model.web.servlets.bestellung.RechnungenAnzeigenServlet" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/bestellung/RechnungenAnzeigenServlet.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-126" y="1702"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="model.web.servlets.bestellung.WarenkorbServlet" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/bestellung/WarenkorbServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="228" y="1403"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="model.web.servlets.bestellung.WarenkorbAnzeigenServlet" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/bestellung/WarenkorbAnzeigenServlet.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="232" y="1556"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="model.web.servlets.bestellung.BezahlenServlet" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/bestellung/BezahlenServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="232" y="1710"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="31" language="java" name="model.web.servlets.film" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/film" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="566" width="797" x="-1142" y="1274"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="32" language="java" name="model.web.servlets.film.FilmAnlegenServlet" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/film/FilmAnlegenServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-980" y="1430"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="model.web.servlets.film.FilmBewerten" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/film/FilmBewerten.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-981" y="1601"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="model.web.servlets.film.HoleFilmeAusDatenbankServlet" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/film/HoleFilmeAusDatenbankServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-983" y="1748"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="model.web.servlets.film.FilmAendernServlet" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/film/FilmAendernServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-627" y="1422"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="model.web.servlets.film.FilmBearbeitenServlet" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/film/FilmBearbeitenServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-622" y="1573"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="model.web.servlets.film.FilmDetailsServlet" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/film/FilmDetailsServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-618" y="1748"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="38" language="java" name="model.web.servlets.kunden" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/kunden" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="399" width="416" x="566" y="1284"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="39" language="java" name="model.web.servlets.kunden.KundenAnzeigenServlet" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/kunden/KundenAnzeigenServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="722" y="1439"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="model.web.servlets.kunden.KundenKontoServlet" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/kunden/KundenKontoServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="726" y="1578"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="41" language="java" name="model.web.servlets.loeschen" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/loeschen" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="388" width="635" x="1034" y="1295"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="42" language="java" name="model.web.servlets.loeschen.KundenLoeschenServlet" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/loeschen/KundenLoeschenServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1191" y="1420"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="model.web.servlets.loeschen.RechnungLoeschenServlet" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/loeschen/RechnungLoeschenServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1193" y="1564"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="model.web.servlets.loeschen.FilmLoeschen" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/loeschen/FilmLoeschen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1495" y="1491"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="45" language="java" name="model.web.servlets.login" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/login" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="310" width="349" x="623" y="1721"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="46" language="java" name="model.web.servlets.login.LoginServlet" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/login/LoginServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="794" y="1890"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="47" language="java" name="model.web.servlets.logout" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/logout" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="255" width="465" x="60" y="1849"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="48" language="java" name="model.web.servlets.logout.LogoutServlet" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/logout/LogoutServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="291" y="1989"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="49" language="java" name="model.web.servlets.register" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/register" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="272" width="478" x="-478" y="1854"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="50" language="java" name="model.web.servlets.register.HandleCreateAccountServlet" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/register/HandleCreateAccountServlet.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-239" y="2008"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="51" language="java" name="model.web.servlets.users" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/users" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="436" width="718" x="-1225" y="1858"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="52" language="java" name="model.web.servlets.users.KontoBearbeiten" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/users/KontoBearbeiten.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-1015" y="1995"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="53" language="java" name="model.web.servlets.users.AenderungBestaetigen" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/users/AenderungBestaetigen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-841" y="2167"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="54" language="java" name="model.web.servlets.users.UserAnzeigen" project="Streaming" 
+    file="/Streaming/src/model/web/servlets/users/UserAnzeigen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-704" y="1996"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="55" language="java" name="model.data.managers" project="Streaming" 
+    file="/Streaming/src/model/data/managers" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="510" width="506" x="1157" y="83"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="56" language="java" name="model.data.managers.PasswortManager" project="Streaming" 
+    file="/Streaming/src/model/data/managers/PasswortManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1285" y="212"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="57" language="java" name="model.data.managers.DoubleManager" project="Streaming" 
+    file="/Streaming/src/model/data/managers/DoubleManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1272" y="364"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="58" language="java" name="model.data.managers.PDFManager" project="Streaming" 
+    file="/Streaming/src/model/data/managers/PDFManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1304" y="511"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="59" language="java" name="model.data.managers.IdGenerator" project="Streaming" 
+    file="/Streaming/src/model/data/managers/IdGenerator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1531" y="209"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="60" language="java" name="model.data.managers.DatumsManager" project="Streaming" 
+    file="/Streaming/src/model/data/managers/DatumsManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1533" y="364"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="61">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <association id="62">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="63" name="produzent">        
+        <position height="18" width="57" x="774" y="515"/>      
+      </attribute>      
+      <multiplicity id="64" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="65">    
+    <bendpoint x="932" y="799"/>    
+    <bendpoint x="377" y="802"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="66">    
+    <bendpoint x="-224" y="331"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="67" name="rechnung"/>      
+      <multiplicity id="68" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="69">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <generalization id="70">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <association id="71">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="72" name="bestellungen">        
+        <position height="18" width="69" x="437" y="316"/>      
+      </attribute>      
+      <multiplicity id="73" minimum="0" maximum="2147483647">        
+        <position height="16" width="21" x="487" y="372"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="74">    
+    <bendpoint x="-562" y="75"/>    
+    <bendpoint x="-563" y="62"/>    
+    <bendpoint x="-565" y="15"/>    
+    <bendpoint x="-496" y="16"/>    
+    <bendpoint x="-399" y="16"/>    
+    <bendpoint x="-265" y="14"/>    
+    <bendpoint x="10" y="13"/>    
+    <bendpoint x="297" y="22"/>    
+    <bendpoint x="296" y="32"/>    
+    <bendpoint x="294" y="48"/>    
+    <bendpoint x="285" y="78"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="75" name="warenkorb"/>      
+      <multiplicity id="76" minimum="0" maximum="1">        
+        <position height="16" width="23" x="260" y="113"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="77">    
+    <bendpoint x="-558" y="381"/>    
+    <bendpoint x="-560" y="398"/>    
+    <bendpoint x="-558" y="435"/>    
+    <bendpoint x="-556" y="502"/>    
+    <bendpoint x="-548" y="621"/>    
+    <bendpoint x="-547" y="971"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="78" name="zahlmethode"/>      
+      <multiplicity id="79" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="80">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <generalization id="81">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <generalization id="82">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="83">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="84" name="adrs"/>      
+      <multiplicity id="85" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="86">    
+    <bendpoint x="-324" y="263"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="87" name="empfaenger"/>      
+      <multiplicity id="88" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

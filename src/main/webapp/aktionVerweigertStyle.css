@@ -1,0 +1,38 @@
+/* -- @author Thomas Mook -- */
+@charset "UTF-8";
+body {
+	margin: 0px;
+	padding: 0px;
+	background: url(bilder/riddick.jpg) no-repeat center center fixed;
+	font-family: sans-serif;
+}
+.verweigert {
+	margin-top: 300px;
+	margin-left: 50px;
+	color: white;
+	font-size:18px;
+	text-align: center;
+	float: left;
+}
+.regButton {
+	position: relative;
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #0174DF;
+	padding: 10px 30px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	curser: pointer;
+}
+.verweigert button[type = "submit"]:hover {
+	background:#0174DF;
+}
+.verweigert a {
+	color:white;
+	text-decoration:none;
+}
