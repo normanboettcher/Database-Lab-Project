@@ -7,7 +7,7 @@ import java.sql.SQLException;
 /**
  * Diese Klasse organisiert die Verbindung zu einer bestehenden Datenbank.
  * 
- * @author Norman Böttcher
+ * @author Norman BÃ¶ttcher
  *
  */
 public class DatabaseConnection {
@@ -17,10 +17,10 @@ public class DatabaseConnection {
 	/**
 	 * Infos fuer Serververbindung
 	 */
-	private static final String DB_SERVER ="207.154.234.136:5432";
+	private static final String DB_SERVER ="";
 	private static final String DB_NAME = "1920-Streaming";
 	private static final String DB_USER = "1920-Streaming";
-	private static final String DB_PASSWORD = "ee5a5e4eb0f415ca6ba417e5e26620ba";
+	private static final String DB_PASSWORD = "";
 	private static final String DB_DRIVER = "org.postgresql.Driver";
 	private static final String DB_URL = "jdbc:postgresql://" + DB_SERVER + "/" + DB_NAME;
 	
